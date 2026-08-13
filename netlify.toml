@@ -6,16 +6,6 @@
   package = "@netlify/plugin-nextjs"
 
 [[headers]]
-  for = "/fonts/*"
-  [headers.values]
-  Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "/models/*"
-  [headers.values]
-  Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
   for = "/_next/static/*"
   [headers.values]
   Cache-Control = "public, max-age=31536000, immutable"
